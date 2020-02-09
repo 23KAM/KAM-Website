@@ -77,6 +77,29 @@ var app = new Vue({
                             issue: 'Vol. 12 (1), 88-101'
                         }
                     ]
+                },
+                 {
+                    title: 'Brexit',
+                    img: 'brexit.jpg',
+                    decription: 'Stuff to do with nato and gender gender gender gender gender gender gender gender gender',
+                    publications: [
+                        {
+                            authors: 'Wright, K A M. and Guerrina, R., (in press)',
+                            year: '2019',
+                            title: 'Imagining the European Union: how EU actors (don’t) talk about gender in the digital sphere',
+                            url: 'http://www.militarygender.com/',
+                            publisher: 'London: Routledge',
+                            description: 'The book was launched at NATO HQ in June 2019 with the NATO Secretary General presented with a copy, and was followed by a panel discussion at the Irish Embassy in Brussels co-hosted with WiiS.'
+                        },
+                        {
+                            authors: 'Wright, K A M.',
+                            year: '2019',
+                            title: 'Telling NATO’s Story of Afghanistan: gender and the alliance’s digital diplomacy',
+                            url: 'https://eprint.ncl.ac.uk/239520',
+                            journal: 'Media, War & Conflict',
+                            issue: 'Vol. 12 (1), 88-101'
+                        }
+                    ]
                 }
             ]
         },
