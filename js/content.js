@@ -21,13 +21,12 @@ var app = new Vue({
         },
 
         projects: {
-            title: 'projects',
+            title: 'research',
 
             projectList: [
                 {
                     title: 'Gender and NATO',
-                    img: 'book.jpg',
-                    imgAlt: 'NATO Secretary General receives copy of the book',
+                    img: 'gendernato.jpg',
                     decription: 'Stuff to do with nato and gender gender gender gender gender gender gender gender gender',
                     publications: [
                         {
@@ -47,14 +46,18 @@ var app = new Vue({
                             url: 'https://eprint.ncl.ac.uk/239520',
                             journal: 'Media, War & Conflict',
                             issue: 'Vol. 12 (1), 88-101'
+                        },
+                        {
+                            type: 'freeform',
+                            text: 'This project is in its early stages and investigates how diverging actors engage with the Women, Peace and Security agenda and their perceptions of each other.',
+                            url: '#'
                         }
                     ]
                 },
 
                 {
                     title: 'Gender and European Studies',
-                    img: 'networking.jpg',
-                    imgAlt: 'TODO: UPDATE THIS',
+                    img: 'genderandeu.jpg',
                     decription: 'Stuff to do with nato and gender gender gender gender gender gender gender gender gender',
                     publications: [
                         {
@@ -75,11 +78,7 @@ var app = new Vue({
                         }
                     ]
                 }
-
-
-
             ]
-
         },
 
         teaching: {
@@ -97,8 +96,8 @@ var app = new Vue({
 
         media: {
             title: 'teaching',
-            img: 'teaching.JPG',
-            imgAlt: 'Katharine teaching',
+            img: '',
+            imgAlt: '',
             paragraphs: [
 
             ]
