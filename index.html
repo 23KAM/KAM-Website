@@ -5,8 +5,8 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Personal website of Dr Katharine A.M. Wright, Lecturer in Politics from Newcastle University">
+  <meta name="author" content="Katharine Wright">
 
   <title>KAMWright</title>
 
@@ -95,13 +95,11 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="research">
       <div class="w-100">
-        <h2 class="mb-5">Research</h2>
-
+        <h2 class="mb-5">{{projects.title}}</h2>
         <div class="row row-cols-1 row-cols-md-2">
-
           <div class="col-md-6" v-for="project in projects.projectList">
             <div class="card">
-              <img :src="'img/' + project.img" class="card-img-top" alt="project.imgAlt">
+              <img :src="'img/' + project.img" class="card-img-top" alt="project.title">
               <div class="card-body">
                 <h5 class="card-title">{{project.title}}</h5>
                 <p class="card-text">{{project.decription}}</p>
@@ -115,6 +113,11 @@
                       <br>
                       <span>{{pub.description}}</span>
                     </div>
+                    <div v-else-if="pub.type === 'freeform'">
+                      <span>{{pub.text}}</span>
+                      <br>
+                      <span>For more info click <a :href="pub.url">here.</a></span>
+                    </div>
                     <div v-else>
                       <span>{{pub.authors}}</span>
                       <span>({{pub.year}})</span>
@@ -126,12 +129,9 @@
                 </ul>
               </div>
             </div>
-
           </div>
         </div>
-
       </div>
-
     </section>
 
     <hr class="m-0">
@@ -142,12 +142,12 @@
 
         <div class="container">
           <div class="resume-item row">
-            <div class="col-sm">
+            <div class="col-sm-5">
               <div v-for="para in teaching.paragraphs">
                 <p class="lead mb-3" >{{para}}</p>
               </div>
             </div>
-            <div class="col-sm">
+            <div class="col-sm-7">
               <img :src="'img/'+ teaching.img" class="img-fluid" alt="Responsive image"/>
             </div>
           </div>
@@ -157,13 +157,11 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="media">
+    <!-- <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="media">
       <div class="w-100">
-        <h2 class="mb-5">Media</h2>
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+        <h2 class="mb-5">{{mdeia.title}}</h2>
       </div>
-    </section>
+    </section> -->
 
   </div>
 
