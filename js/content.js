@@ -48,6 +48,33 @@ var app = new Vue({
                             issue: 'Vol. 12 (1), 88-101'
                         },
                         {
+                            type: 'article',
+                            authors: 'Wright, K A M.',
+                            year: '2019',
+                            title: 'Telling NATO’s Story of Afghanistan: gender and the alliance’s digital diplomacy',
+                            url: 'https://eprint.ncl.ac.uk/239520',
+                            journal: 'Media, War & Conflict',
+                            issue: 'Vol. 12 (1), 88-101'
+                        },
+                        {
+                            type: 'article',
+                            authors: 'Wright, K A M.',
+                            year: '2019',
+                            title: 'Telling NATO’s Story of Afghanistan: gender and the alliance’s digital diplomacy',
+                            url: 'https://eprint.ncl.ac.uk/239520',
+                            journal: 'Media, War & Conflict',
+                            issue: 'Vol. 12 (1), 88-101'
+                        },
+                        {
+                            type: 'article',
+                            authors: 'Wright, K A M.',
+                            year: '2019',
+                            title: 'Telling NATO’s Story of Afghanistan: gender and the alliance’s digital diplomacy',
+                            url: 'https://eprint.ncl.ac.uk/239520',
+                            journal: 'Media, War & Conflict',
+                            issue: 'Vol. 12 (1), 88-101'
+                        },
+                        {
                             type: 'freeform',
                             text: 'This project is in its early stages and investigates how diverging actors engage with the Women, Peace and Security agenda and their perceptions of each other.',
                             url: '#'
