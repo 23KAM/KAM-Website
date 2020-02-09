@@ -69,7 +69,7 @@
           <a :href="'mailto:' + email">{{email}}</a>
         </div>
         <div v-for="para in about.paragraphs">
-          <p class="lead mb-3">{{para}}</p>
+          <p class="lead mb-3" v-html="para"></p>
         </div>
         <p class="lead mb-5">
           Here's a link to my full <a href="#">CV</a>.
