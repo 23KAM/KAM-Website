@@ -56,9 +56,9 @@ var app = new Vue({
                 },
 
                 {
-                    title: 'Gender and European Studies',
+                    title: 'Gender and EU External Affairs',
                     img: 'genderandeu.jpg',
-                    decription: 'Stuff to do with nato and gender gender gender gender gender gender gender gender gender',
+                    decription: 'gender gender gender gender gender gender',
                     publications: [
                         {
                             authors: 'Wright, K A M. and Guerrina, R., (in press)',
