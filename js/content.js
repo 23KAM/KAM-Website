@@ -10,7 +10,7 @@ var app = new Vue({
         about: {
             title: 'teaching',
             paragraphs: [
-                'I am a Lecturer in International Politics at Newcastle University (UK). My research interests focus on gender and security in institutional settings, with a focus on NATO, EU foreign and security policy, Women, Peace and Security, feminist foreign policy, Brexit, along with gender and the research process.',
+                'I am a Lecturer (Asst. Prof) in International Politics at Newcastle University (UK). My research interests focus on gender and security in institutional settings, with a focus on NATO, EU foreign and security policy, Women, Peace and Security, feminist foreign policy, Brexit, along with gender and the research process.',
 
                 'My book NATO, Gender and the Military: Women organising from within (co-authored with Matthew Hurley and Jesus Ignacio Gil Ruiz). Drawing on recently declassified NATO documents, the book argues that NATO has been concerned with gender issues long before the Women, Peace and Security agenda.',
 
@@ -27,7 +27,7 @@ var app = new Vue({
                 {
                     title: 'Gender and NATO',
                     img: 'gendernato.jpg',
-                    decription: 'Stuff to do with nato and gender gender gender gender gender gender gender gender gender',
+                    decription: "This research examines NATO as a gendered institution, including NATO's engagement with the Women, Peace and Security agenda",
                     publications: [
                         {
                             type: 'book',
