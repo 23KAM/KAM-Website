@@ -107,7 +107,7 @@ var app = new Vue({
                             journal: 'Politcs & Governance',
                             issue: 'Vol. 7 (3), 62-71'
                         },
-                          {
+                        {
                             authors: 'Wright, K A M.',
                             year: '2019',
                             title: 'Gendering European Security',
@@ -115,7 +115,7 @@ var app = new Vue({
                             journal: 'Contemporary European Security',
                             issue: 'Galbreath, D Mawdsley, M and Chappell, L [Eds]. Routledge'
                         },
-                          {
+                        {
                             authors: 'Guerrina, R and Chappell, L. and Wright, K A M.',
                             year: '2018',
                             title: 'Transforming CSDP?: Feminist Triangles and Gender Regimes',
@@ -123,17 +123,18 @@ var app = new Vue({
                             journal: 'JCMS: Journal of Common Market Studies',
                             issue: 'Vol. 56 (5), 1036-1052'
                         },
-                          {
+                        {
                             authors: 'Guerrina, R and Wright, K A M.',
                             year: '2016',
                             title: 'Gendering Normative Power Europe: Lessons of the Women, Peace and Security Agenda',
                             url: 'https://www.cogitatiopress.com/politicsandgovernance/article/view/2153',
                             journal: 'International Affairs',
                             issue: 'Vol. 92 (2), 292-312'
-                        },
+                        }
                     ]
                 },
-                 {
+                
+                {
                     title: 'Brexit',
                     img: 'brexit.jpg',
                     decription: 'My work on Brexit examines the gendered impact on the EU and UK, along with earlier work on social media and the 2016 referendum campaigns',
@@ -161,7 +162,7 @@ var app = new Vue({
                             journal: 'European Journal of Politics and Gender',
                             issue: 'Vol. 2 (2), 311-312'
                         },
-                         {
+                        {
                             authors: 'Guerrina, R., Haastrup, T., Wright, K A M., Macrae, H., Masselot, A and Cavaghan, R. ',
                             year: '2018',
                             title: 'Does European Union Studies have a gender problem? Experiences from researching Brexit',
@@ -169,7 +170,7 @@ var app = new Vue({
                             journal: 'International Feminist Journal of Politics',
                             issue: 'Vol. 20 (2), 252-257'
                         },
-                         {
+                        {
                             authors: 'Usherwood, S and Wright, K A M.',
                             year: '2017',
                             title: 'Sticks and stones: Comparing Twitter campaigning strategies in the European Union referendum',
@@ -177,7 +178,7 @@ var app = new Vue({
                             journal: 'British Journal of Politics and International Relations',
                             issue: 'Vol. 19 (2), 371-388'
                         },
-                         {
+                        {
                             authors: 'Usherwood, S and Wright, K A M.',
                             year: '2016',
                             title: 'Talking past each other: the Twitter campaigns',
@@ -185,21 +186,24 @@ var app = new Vue({
                             journal: 'EU Referendum Analysis 2016: Media, Voters and the Campaign',
                             issue: 'Jackson, D., Thorsen, E., and Wring, D. [Eds]. Bournemouth: The Centre for the Study of Journalism, Culture and Community.'
                         },
-                            {
+                        {
                             authors: 'Haastrup, T., Guerrina, R and Wright, K A M',
                             year: '2016',
                             title: 'Women in the Brexit debate: still largely confined to ‘low’ politics',
                             url: 'https://blogs.lse.ac.uk/brexit/2016/06/17/women-in-the-brexit-debate-still-largely-confined-to-low-politics/',
                             journal: 'LSE Brexit Blog'
                         },
-                            {
+                        {
                             authors: 'Guerrina, R., Haastrup, T and Wright, K A M.',
                             year: '2016',
                             title: 'Is it really that difficult to find women to talk about the EU Referendum?',
                             url: 'https://blogs.lse.ac.uk/impactofsocialsciences/2016/05/19/is-it-really-that-difficult-to-find-women-to-talk-about-the-eu/',
                             journal: 'LSE Impact Blog [Cross posted on the PSA, PSA Women and Politics and LSE Brexit Vote blogs]',
-                        },
-                        {
+                        }
+                    ]
+                },
+                
+                {
                     title: 'Gender and the research process',
                     img: 'holding.jpg',
                     decription: 'This work reflects my interest in how gender shapes the research process',
