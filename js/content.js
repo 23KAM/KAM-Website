@@ -89,7 +89,7 @@ var app = new Vue({
                 {
                     title: 'Gender and EU Foreign and Security policy',
                     img: 'genderandeu.jpg',
-                    decription: 'gender gender gender gender gender gender',
+                    decription: 'This research examines gender and EU external relations, including work on CSDP, digital diplomacy, Normative Power Europe and the impact of Brexit',
                     publications: [
                         {
                             authors: 'Wright, K A M. and Guerrina, R.',
@@ -136,7 +136,7 @@ var app = new Vue({
                  {
                     title: 'Brexit',
                     img: 'brexit.jpg',
-                    decription: 'Stuff to do with nato and gender gender gender gender gender gender gender gender gender',
+                    decription: 'My work on Brexit examines the gendered impact on the EU and UK, along with earlier work on social media and the 2016 referendum campaigns',
                     publications: [
                         {
                             authors: 'Guerrina, R., Wright, K A M. and Haastrup, T.',
@@ -198,6 +198,27 @@ var app = new Vue({
                             title: 'Is it really that difficult to find women to talk about the EU Referendum?',
                             url: 'https://blogs.lse.ac.uk/impactofsocialsciences/2016/05/19/is-it-really-that-difficult-to-find-women-to-talk-about-the-eu/',
                             journal: 'LSE Impact Blog [Cross posted on the PSA, PSA Women and Politics and LSE Brexit Vote blogs]',
+                        },
+                        {
+                    title: 'Gender and the research process',
+                    img: 'brexit.jpg',
+                    decription: 'This work reflects my interest in how gender shapes the research process',
+                    publications: [
+                        {
+                            authors: 'Wright, K A M. and Routley, L.',
+                            year: '2020',
+                            title: 'Being Indiana Jones in IR: The pressure to do ‘real’ fieldwork',
+                            url: '#',
+                            journal: 'A Companion to Peace and Conflict Field Research',
+                            issue: 'Mac Ginty, R., Vogel, B and Brett, R. [Eds] Basingstoke: Palgrave-Macmillan',
+                        },
+                        {
+                            authors: 'Holmes, G., Wright, K A M., Basu, S., Hurley, M., Martin de Almagro, M., Guerrina, R. and Cheng, C. ',
+                            year: '2019',
+                            title: 'Feminist Experiences of ‘Studying up’: Encounters with International Institutions',
+                            url: 'https://journals.sagepub.com/doi/abs/10.1177/0305829818806429?journalCode=mila',
+                            journal: 'Millennium: Journal of International Studies',
+                            issue: 'Vol. 47(2), 210–230',
                         },
                     ]
                 }
