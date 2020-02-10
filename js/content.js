@@ -16,7 +16,7 @@ var app = new Vue({
 
                 'I have been interviewed on both radio and television and I am always happy to talk to the media about any issue which intersects with my research.',
 
-                'My current research examines how diverging actors (NATO and civil society) engage with the Women, Peace and Security agenda and their perceptions of each other, a critical engagement with feminist foreign policy, and the EU as a gender actor in external affairs. I’m also interested in how gender shapes research encounters. I use a variety of methods in my research including elite interviews and content analysis.'
+                'My current research examines how diverging actors (NATO and civil society) engage with the Women, Peace and Security agenda and their perceptions of each other, a critical engagement with feminist foreign policy, and the EU as a gender actor in external affairs. I use a variety of methods in my research including elite interviews and content analysis.'
             ]
         },
 
@@ -43,7 +43,7 @@ var app = new Vue({
                             authors: 'Wright, K A M.',
                             year: '2019',
                             title: 'Telling NATO’s Story of Afghanistan: gender and the alliance’s digital diplomacy',
-                            url: 'https://eprint.ncl.ac.uk/239520',
+                            url: 'https://journals.sagepub.com/doi/10.1177/1750635217730588',
                             journal: 'Media, War & Conflict',
                             issue: 'Vol. 12 (1), 88-101'
                         },
@@ -51,28 +51,37 @@ var app = new Vue({
                             type: 'article',
                             authors: 'Wright, K A M.',
                             year: '2019',
-                            title: 'Telling NATO’s Story of Afghanistan: gender and the alliance’s digital diplomacy',
-                            url: 'https://eprint.ncl.ac.uk/239520',
-                            journal: 'Media, War & Conflict',
-                            issue: 'Vol. 12 (1), 88-101'
+                            title: 'Promoting the Women, Peace and Security agenda',
+                            url: 'https://www.iss.europa.eu/sites/default/files/EUISSFiles/EU%20and%20NATO.pdf',
+                            journal: 'The EU and NATO: the essential partners',
+                            issue: 'EUISS-NATO Defence College'
                         },
                         {
                             type: 'article',
                             authors: 'Wright, K A M.',
                             year: '2019',
-                            title: 'Telling NATO’s Story of Afghanistan: gender and the alliance’s digital diplomacy',
-                            url: 'https://eprint.ncl.ac.uk/239520',
-                            journal: 'Media, War & Conflict',
-                            issue: 'Vol. 12 (1), 88-101'
+                            title: 'Making WPS a Reality in 2020: Transparency, Bold Leadership and Resources',
+                            url: 'https://www.nato.int/nato_static_fl2014/assets/pdf/pdf_2019_03/20190307_190308-wps-essays-en.pdf',
+                            journal: 'Resilience and Resolution A Compendium of Essays on Women, Peace and Security',
+                            issue: 'NATO'
+                        },
+                        {
+                            type: 'article',
+                            authors: 'Wright, K A M. and Hurley, M.',
+                            year: '2017',
+                            title: 'Navigating Power and Perceptions when Researching NATO',
+                            url: 'https://www.tandfonline.com/doi/abs/10.1080/14616742.2017.1324096',
+                            journal: 'International Feminist Journal of Politics',
+                            issue: 'Vol. 19 (3), 390-392'
                         },
                         {
                             type: 'article',
                             authors: 'Wright, K A M.',
-                            year: '2019',
-                            title: 'Telling NATO’s Story of Afghanistan: gender and the alliance’s digital diplomacy',
-                            url: 'https://eprint.ncl.ac.uk/239520',
-                            journal: 'Media, War & Conflict',
-                            issue: 'Vol. 12 (1), 88-101'
+                            year: '2016',
+                            title: 'NATO’s Adoption of UNSCR 1325 on Women, Peace and Security: Making the Agenda a Reality',
+                            url: 'https://journals.sagepub.com/doi/10.1177/0192512116638763',
+                            journal: 'International Political Science Review',
+                            issue: 'Vol. 37 (3), 350-361'
                         },
                         {
                             type: 'freeform',
