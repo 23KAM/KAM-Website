@@ -201,6 +201,7 @@ var app = new Vue({
                         },
                         {
                     title: 'Gender and the research process',
+                    img: 'brexit.jpg',
                     decription: 'This work reflects my interest in how gender shapes the research process',
                     publications: [
                         {
