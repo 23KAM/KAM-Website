@@ -205,7 +205,7 @@ var app = new Vue({
                 
                 {
                     title: 'Gender and the research process',
-                    img: 'holding.jpg',
+                    img: 'research.jpg',
                     decription: 'This work reflects my interest in how gender shapes the research process',
                     publications: [
                         {
