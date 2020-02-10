@@ -92,26 +92,50 @@ var app = new Vue({
                 },
 
                 {
-                    title: 'Gender and EU External Affairs',
+                    title: 'Gender and EU Foreign and Security policy',
                     img: 'genderandeu.jpg',
                     decription: 'gender gender gender gender gender gender',
                     publications: [
                         {
-                            authors: 'Wright, K A M. and Guerrina, R., (in press)',
-                            year: '2019',
+                            authors: 'Wright, K A M. and Guerrina, R.',
+                            year: 'in press',
                             title: 'Imagining the European Union: how EU actors (don’t) talk about gender in the digital sphere',
-                            url: 'http://www.militarygender.com/',
-                            publisher: 'London: Routledge',
-                            description: 'The book was launched at NATO HQ in June 2019 with the NATO Secretary General presented with a copy, and was followed by a panel discussion at the Irish Embassy in Brussels co-hosted with WiiS.'
+                            url: '#',
+                            journal: 'Political Studies Review',
+                            issue: 'Vol. (), '
                         },
                         {
+                            authors: 'Haastrup, T., Wright, K A M. and Guerrina R.',
+                            year: '2019',
+                            title: 'Bringing Gender in? EU Foreign and Security Policy After Brexit',
+                            url: 'https://www.cogitatiopress.com/politicsandgovernance/article/view/2153',
+                            journal: 'Politcs & Governance',
+                            issue: 'Vol. 7 (3), 62-71'
+                        },
+                          {
                             authors: 'Wright, K A M.',
                             year: '2019',
-                            title: 'Telling NATO’s Story of Afghanistan: gender and the alliance’s digital diplomacy',
-                            url: 'https://eprint.ncl.ac.uk/239520',
-                            journal: 'Media, War & Conflict',
-                            issue: 'Vol. 12 (1), 88-101'
-                        }
+                            title: 'Gendering European Security',
+                            url: 'https://www.routledge.com/Contemporary-European-Security-1st-Edition/Galbreath-Mawdsley-Chappell/p/book/9780415473576',
+                            journal: 'Contemporary European Security',
+                            issue: 'Galbreath, D Mawdsley, M and Chappell, L [Eds]. Routledge'
+                        },
+                          {
+                            authors: 'Guerrina, R and Chappell, L. and Wright, K A M.',
+                            year: '2018',
+                            title: 'Transforming CSDP?: Feminist Triangles and Gender Regimes',
+                            url: 'https://onlinelibrary.wiley.com/doi/abs/10.1111/jcms.12705',
+                            journal: 'JCMS: Journal of Common Market Studies',
+                            issue: 'Vol. 56 (5), 1036-1052'
+                        },
+                          {
+                            authors: 'Guerrina, R and Wright, K A M.',
+                            year: '2016',
+                            title: 'Gendering Normative Power Europe: Lessons of the Women, Peace and Security Agenda',
+                            url: 'https://www.cogitatiopress.com/politicsandgovernance/article/view/2153',
+                            journal: 'International Affairs',
+                            issue: 'Vol. 92 (2), 292-312'
+                        },
                     ]
                 },
                  {
