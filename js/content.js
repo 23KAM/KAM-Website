@@ -82,11 +82,6 @@ var app = new Vue({
                             url: 'https://journals.sagepub.com/doi/10.1177/0192512116638763',
                             journal: 'International Political Science Review',
                             issue: 'Vol. 37 (3), 350-361'
-                        },
-                        {
-                            type: 'freeform',
-                            text: 'This project is in its early stages and investigates how diverging actors engage with the Women, Peace and Security agenda and their perceptions of each other.',
-                            url: '#'
                         }
                     ]
                 },
@@ -144,21 +139,52 @@ var app = new Vue({
                     decription: 'Stuff to do with nato and gender gender gender gender gender gender gender gender gender',
                     publications: [
                         {
-                            authors: 'Wright, K A M. and Guerrina, R., (in press)',
-                            year: '2019',
-                            title: 'Imagining the European Union: how EU actors (don’t) talk about gender in the digital sphere',
-                            url: 'http://www.militarygender.com/',
-                            publisher: 'London: Routledge',
-                            description: 'The book was launched at NATO HQ in June 2019 with the NATO Secretary General presented with a copy, and was followed by a panel discussion at the Irish Embassy in Brussels co-hosted with WiiS.'
+                            authors: 'Guerrina, R., Wright, K A M. and Haastrup, T.',
+                            year: '2020',
+                            title: 'Living up to the Women, Peace and Security agenda? - EU Foreign and Security policy after Brexit',
+                            url: 'https://blogs.lse.ac.uk/brexit/',
+                            publisher: 'LSE Brexit Blog',
                         },
                         {
-                            authors: 'Wright, K A M.',
+                            authors: 'Haastrup, T., Wright, K A M. and Guerrina R.',
                             year: '2019',
-                            title: 'Telling NATO’s Story of Afghanistan: gender and the alliance’s digital diplomacy',
-                            url: 'https://eprint.ncl.ac.uk/239520',
-                            journal: 'Media, War & Conflict',
-                            issue: 'Vol. 12 (1), 88-101'
-                        }
+                            title: 'Bringing Gender in? EU Foreign and Security Policy After Brexit',
+                            url: 'https://www.cogitatiopress.com/politicsandgovernance/article/view/2153',
+                            journal: 'Politcs & Governance',
+                            issue: 'Vol. 7 (3), 62-71'
+                        },
+                        {
+                            authors: 'Haastrup, T., Wright, K A M and Guerrina, R',
+                            year: '2019',
+                            title: 'Brexit: Gendered Implications for Equality in the UK',
+                            url: 'https://www.ingentaconnect.com/content/bup/ejpg/2019/00000002/00000002/art00008',
+                            journal: 'European Journal of Politics and Gender',
+                            issue: 'Vol. 2 (2), 311-312'
+                        },
+                         {
+                            authors: 'Guerrina, R., Haastrup, T., Wright, K A M., Macrae, H., Masselot, A and Cavaghan, R. ',
+                            year: '2018',
+                            title: 'Does European Union Studies have a gender problem? Experiences from researching Brexit',
+                            url: 'https://www.tandfonline.com/doi/abs/10.1080/14616742.2018.1457881?journalCode=rfjp20',
+                            journal: 'International Feminist Journal of Politics',
+                            issue: 'Vol. 20 (2), 252-257'
+                        },
+                         {
+                            authors: 'Usherwood, S and Wright, K A M.',
+                            year: '2017',
+                            title: 'Sticks and stones: Comparing Twitter campaigning strategies in the European Union referendum',
+                            url: 'https://journals.sagepub.com/doi/abs/10.1177/1369148117700659',
+                            journal: 'British Journal of Politics and International Relations',
+                            issue: 'Vol. 19 (2), 371-388'
+                        },
+                         {
+                            authors: 'Haastrup, Txxxxxx',
+                            year: '2019',
+                            title: 'Brexit: Gendered Implications for Equality in the UK',
+                            url: 'https://www.ingentaconnect.com/content/bup/ejpg/2019/00000002/00000002/art00008',
+                            journal: 'European Journal of Politics and Gender',
+                            issue: 'Vol. 2 (2), 311-312'
+                        },
                     ]
                 }
             ]
