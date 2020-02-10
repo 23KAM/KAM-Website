@@ -22,6 +22,7 @@ var app = new Vue({
 
         projects: {
             title: 'research',
+            decription: "Thce and Security agenda",
 
             projectList: [
                 {
