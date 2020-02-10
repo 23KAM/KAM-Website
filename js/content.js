@@ -178,12 +178,26 @@ var app = new Vue({
                             issue: 'Vol. 19 (2), 371-388'
                         },
                          {
-                            authors: 'Haastrup, Txxxxxx',
-                            year: '2019',
-                            title: 'Brexit: Gendered Implications for Equality in the UK',
-                            url: 'https://www.ingentaconnect.com/content/bup/ejpg/2019/00000002/00000002/art00008',
-                            journal: 'European Journal of Politics and Gender',
-                            issue: 'Vol. 2 (2), 311-312'
+                            authors: 'Usherwood, S and Wright, K A M.',
+                            year: '2016',
+                            title: 'Talking past each other: the Twitter campaigns',
+                            url: 'http://www.referendumanalysis.eu/eu-referendum-analysis-2016/section-7-social-media/talking-past-each-other-the-twitter-campaigns/',
+                            journal: 'EU Referendum Analysis 2016: Media, Voters and the Campaign',
+                            issue: 'Jackson, D., Thorsen, E., and Wring, D. [Eds]. Bournemouth: The Centre for the Study of Journalism, Culture and Community.'
+                        },
+                            {
+                            authors: 'Haastrup, T., Guerrina, R and Wright, K A M',
+                            year: '2016',
+                            title: 'Women in the Brexit debate: still largely confined to ‘low’ politics',
+                            url: 'https://blogs.lse.ac.uk/brexit/2016/06/17/women-in-the-brexit-debate-still-largely-confined-to-low-politics/',
+                            journal: 'LSE Brexit Blog'
+                        },
+                            {
+                            authors: 'Guerrina, R., Haastrup, T and Wright, K A M.',
+                            year: '2016',
+                            title: 'Is it really that difficult to find women to talk about the EU Referendum?',
+                            url: 'https://blogs.lse.ac.uk/impactofsocialsciences/2016/05/19/is-it-really-that-difficult-to-find-women-to-talk-about-the-eu/',
+                            journal: 'LSE Impact Blog [Cross posted on the PSA, PSA Women and Politics and LSE Brexit Vote blogs]',
                         },
                     ]
                 }
