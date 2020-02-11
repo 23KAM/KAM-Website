@@ -9,6 +9,7 @@ var app = new Vue({
 
         about: {
             title: "teaching",
+            cvLink: "https://drive.google.com/file/d/1pxYw9X96bUIK9DXfadPDNV6a0poCFzFO/view?usp=sharing",
             paragraphs: [
                 "I am a Lecturer (Asst. Prof) in International Politics at Newcastle University (UK). My research interests focus on gender and security in institutional settings, with a focus on NATO and EU foreign and security policy. I've also published on Brexit, along with gender and the research process.",
 
