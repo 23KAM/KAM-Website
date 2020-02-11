@@ -260,7 +260,7 @@ var app = new Vue({
                         {
                             type: 'freeform',
                             text: 'The UACES Gendering European Studies Research Network brings together a rich and growing body of work in the area of gender and EU politics and policies, with the intention of mainstreaming gender and feminist approaches in EU studies.',
-                            url: 'https://www.uaces.org/networks/2018b.php'
+                            url:  'https://www.uaces.org/networks/2018b.php'
 
                         },
                         {
