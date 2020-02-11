@@ -226,6 +226,7 @@ var app = new Vue({
                         },
                     ]
                 },
+                
                 {
                     title: 'Gender and leadership',
                     img: 'blank.jpg',
@@ -250,8 +251,9 @@ var app = new Vue({
                         }
                     ]
                 },
+                
                  {
-                    title: 'Gender European Studies',
+                    title: 'Gendering European Studies',
                     img: 'uacesges.jpg',
                     decription: 'I am convener of the Gendering European Studies Research Network funded from 2018 to 2021 by UACES (the academic association for Contemporary European Studies)',
                     publications: [
@@ -271,6 +273,7 @@ var app = new Vue({
                         }
                     ]
                 },
+                
                  {
                     title: 'Gender and Inclusive Peace and Security',
                     img: 'qcea.jpg',
