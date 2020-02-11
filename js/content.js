@@ -3,8 +3,6 @@ var app = new Vue({
     data: {
         firstname: "Dr Katharine A.M.",
         surname: "Wright",
-        address: "School of Geography, Politics and Sociology · Newcastle University · NE1 7RU",
-        telephone: "+44 191 208 023",
         email: "katharine.a.m.wright@newcastle.ac.uk",
 
         about: {
