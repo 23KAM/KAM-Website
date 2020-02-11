@@ -12,7 +12,7 @@ var app = new Vue({
             paragraphs: [
                 "I am a Lecturer (Asst. Prof) in International Politics at Newcastle University (UK). My research interests focus on gender and security in institutional settings, with a focus on NATO and EU foreign and security policy. I've also published on Brexit, along with gender and the research process.",
 
-                'My book <a href="https://www.militarygender.com/">NATO, Gender and the Military: Women organising from within</a> (co-authored with Matthew Hurley and Jesus Ignacio Gil Ruiz). Drawing on recently declassified NATO documents, the book argues that NATO has been concerned with gender issues long before the Women, Peace and Security agenda. I have published widely in both leading peer-reviewed academic journals and blogs. ',
+                'My book <a href="https://www.militarygender.com/">NATO, Gender and the Military: Women organising from within</a> (co-authored with Matthew Hurley and Jesus Ignacio Gil Ruiz) makes a case for feminist theorising of NATO. Drawing on recently declassified NATO documents, the book argues that NATO has been concerned with gender issues long before the Women, Peace and Security agenda. I have published widely in both leading peer-reviewed academic journals and blogs. ',
 
                 'I have been interviewed on both radio and television and I am always happy to talk to the media about any issue which intersects with my research.',
 
@@ -104,7 +104,7 @@ var app = new Vue({
                             year: '2019',
                             title: 'Bringing Gender in? EU Foreign and Security Policy After Brexit',
                             url: 'https://www.cogitatiopress.com/politicsandgovernance/article/view/2153',
-                            journal: 'Politcs & Governance',
+                            journal: 'Politics & Governance',
                             issue: 'Vol. 7 (3), 62-71'
                         },
                         {
@@ -151,7 +151,7 @@ var app = new Vue({
                             year: '2019',
                             title: 'Bringing Gender in? EU Foreign and Security Policy After Brexit',
                             url: 'https://www.cogitatiopress.com/politicsandgovernance/article/view/2153',
-                            journal: 'Politcs & Governance',
+                            journal: 'Politics & Governance',
                             issue: 'Vol. 7 (3), 62-71'
                         },
                         {
