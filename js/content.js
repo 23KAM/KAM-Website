@@ -272,13 +272,13 @@ var app = new Vue({
                     ]
                 },
                  {
-                    title: 'Gender European Studies',
+                    title: 'Gender and Inclusive Peace and Security',
                     img: 'qcea.jpg',
                     decription: 'I received funding from the ESRC (ES/T501827/1) to work with the Quaker Council for European Affairs on a project addressing gender and inclusivity across peace and security institutions.',
                     publications: [
                         {
                             type: 'freeform',
-                            text: '',
+                            text: 'xxx',
                             url: 'http://www.qcea.org/peace/gender-and-inclusivity/'
 
                         },
