@@ -27,7 +27,7 @@ var app = new Vue({
                 {
                     title: 'Gender and NATO',
                     img: 'gendernato.jpg',
-                    decription: "This research examines NATO as a gendered institution, including NATO's engagement with the Women, Peace and Security agenda",
+                    decription: "This research examines NATO as a gendered institution, including NATO's engagement with the Women, Peace and Security agenda, including through partnerships, public diplomacy, celebrity and engaging civil society.",
                     publications: [
                         {
                             type: 'book',
@@ -89,7 +89,7 @@ var app = new Vue({
                 {
                     title: 'Gender and EU Foreign and Security policy',
                     img: 'genderandeu.jpg',
-                    decription: 'This research examines gender and EU external relations, including work on CSDP, digital diplomacy, Normative Power Europe and the impact of Brexit',
+                    decription: 'This research examines gender and EU external relations, including work on CSDP, digital diplomacy, Normative Power Europe and the impact of Brexit.',
                     publications: [
                         {
                             authors: 'Wright, K A M. and Guerrina, R.',
@@ -137,7 +137,7 @@ var app = new Vue({
                 {
                     title: 'Brexit',
                     img: 'brexit.jpg',
-                    decription: 'My work on Brexit examines the gendered impact on the EU and UK, along with earlier work on social media and the 2016 referendum campaigns',
+                    decription: 'My work on Brexit examines the gendered impact on the EU and UK, along with earlier work on social media and the 2016 referendum campaigns.',
                     publications: [
                         {
                             authors: 'Guerrina, R., Wright, K A M. and Haastrup, T.',
@@ -206,7 +206,7 @@ var app = new Vue({
                 {
                     title: 'Gender and the research process',
                     img: 'research.jpg',
-                    decription: 'This work reflects my interest in how gender shapes the research process',
+                    decription: 'This work reflects my interest in how gender shapes the research process.',
                     publications: [
                         {
                             authors: 'Wright, K A M. and Routley, L.',
@@ -230,7 +230,7 @@ var app = new Vue({
                 {
                     title: 'Gender and leadership',
                     img: 'blank.jpg',
-                    decription: 'My work on gender leadership also intersects with my research on Women, Peace and Security but I have also published specifically on gendered nature of political leadership',
+                    decription: 'My work on gender leadership also intersects with my research on Women, Peace and Security but I have also published specifically on gendered nature of political leadership.',
                     publications: [
                         {
                             authors: 'Holland, J. and Wright, K A M.',
@@ -255,7 +255,7 @@ var app = new Vue({
                  {
                     title: 'Gendering European Studies',
                     img: 'uacesges.jpg',
-                    decription: 'I am convener of the Gendering European Studies Research Network funded from 2018 to 2021 by UACES (the academic association for Contemporary European Studies)',
+                    decription: 'I am convener of the Gendering European Studies Research Network funded from 2018 to 2021 by UACES (the academic association for Contemporary European Studies).',
                     publications: [
                         {
                             type: 'freeform',
