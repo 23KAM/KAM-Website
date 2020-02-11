@@ -227,13 +227,37 @@ var app = new Vue({
                     ]
                 },
                 {
+                    title: 'Gender and leadership',
+                    img: 'blank.jpg',
+                    decription: 'My work on gender leadership also intersects with my research on Women, Peace and Security but I have also published specifically on gendered nature of political leadership',
+                    publications: [
+                        {
+                            authors: 'Holland, J. and Wright, K A M.',
+                            year: '2017',
+                            title: 'The double delegitimisation of Julia Gillard: Gender, the media and Australian political culture',
+                            url: 'https://onlinelibrary.wiley.com/doi/abs/10.1111/ajph.12405',
+                            journal: 'Australian Journal of Politics and History',
+                            issue: 'Vol. 63(4), 588-602',
+
+                        },
+                        {
+                            authors: 'Wright, K A M. and Holland, J.',
+                            year: '2014',
+                            title: "Leadership and the Media: Gendered Framings of Julia Gillard's ‘Sexism and Misogyny'",
+                            url: 'https://www.tandfonline.com/doi/abs/10.1080/10361146.2014.929089',
+                            journal: 'Australian Journal of Political Science',
+                            issue: 'Vol. 49(3), 455-468'
+                        }
+                    ]
+                },
+                 {
                     title: 'Gender European Studies',
                     img: 'uacesges.jpg',
-                    decription: 'I am convener of the Gendering European Studies Research Network which has funding from UACES (the academic association for Contemporary European Studies)',
+                    decription: 'I am convener of the Gendering European Studies Research Network funded from 2018 to 2021 by UACES (the academic association for Contemporary European Studies)',
                     publications: [
                         {
                             type: 'freeform',
-                            text: 'The UACES Gendering European Studies Research Network brings together a rich and growing body of work in the area of gender and EU politics and policies, with the intention of mainstreaming gender and feminist approaches in EU studies. The network seeks to encourage the further development of this scholarship and encourage the dissemination of key findings within mainstream outlets. The network brings together established and early career researchers in a supportive environment aimed at producing high quality and rigorous research outputs. GES seeks to explore and challenge the obstacles which curtail feminist influence in EU Studies and leave gender analysis on the periphery. The network thus has two co-constituting aims: 1) To encourage research on gender and all aspects of the EU, including external relations. 2)To facilitate engagement between ‘mainstream’ EU Studies scholars and feminist scholars on the value of gender analysis. Network Coordinators:',
+                            text: 'The UACES Gendering European Studies Research Network brings together a rich and growing body of work in the area of gender and EU politics and policies, with the intention of mainstreaming gender and feminist approaches in EU studies.',
                             url: 'https://www.uaces.org/networks/2018b.php'
 
                         },
@@ -247,9 +271,20 @@ var app = new Vue({
                         }
                     ]
                 },
-            ]
-        },
+                 {
+                    title: 'Gender European Studies',
+                    img: 'qcea.jpg',
+                    decription: 'I received funding from the ESRC (ES/T501827/1) to work with the Quaker Council for European Affairs on a project addressing gender and inclusivity across peace and security institutions.',
+                    publications: [
+                        {
+                            type: 'freeform',
+                            text: '',
+                            url: 'http://www.qcea.org/peace/gender-and-inclusivity/'
 
+                        },
+                      ]
+                   },
+                {
         teaching: {
             title: 'teaching',
             img: 'teaching.JPG',
