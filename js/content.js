@@ -7,7 +7,7 @@ var app = new Vue({
 
         about: {
             title: "teaching",
-            cvLink: "https://drive.google.com/file/d/1pxYw9X96bUIK9DXfadPDNV6a0poCFzFO/view?usp=sharing",
+            cvLink: "https://docs.google.com/document/d/1-007oFyDaz9ByAZCkTQFikIDrzhqf3jSCstxQx7cn90/edit?usp=sharing",
             paragraphs: [
                 "I am a Lecturer (Asst. Prof) in International Politics at Newcastle University (UK). My research interests focus on gender and security in institutional settings, with a focus on NATO and EU foreign and security policy. I've also published on Brexit, along with gender and the research process.",
 
@@ -19,16 +19,14 @@ var app = new Vue({
             ]
         },
 
-        projects: {
+        research: {
             title: "research",
 
-            projectList: [
-                {
+            projectList: [{
                     title: "Gender and NATO",
                     img: "gendernato.jpg",
                     decription: "This research examines NATO as a gendered institution, including NATO's engagement with the Women, Peace and Security agenda, including through partnerships, public diplomacy, celebrity and engaging civil society.",
-                    publications: [
-                        {
+                    publications: [{
                             type: "book",
                             authors: "Wright, K A M., Hurley, M and Gil Ruiz, J. I.",
                             year: "2019",
@@ -89,8 +87,7 @@ var app = new Vue({
                     title: "Gender and EU Foreign and Security policy",
                     img: "genderandeu.jpg",
                     decription: "This research examines gender and EU external relations, including work on CSDP, digital diplomacy, Normative Power Europe and the impact of Brexit.",
-                    publications: [
-                        {
+                    publications: [{
                             authors: "Wright, K A M. and Guerrina, R.",
                             year: "in press",
                             title: "Imagining the European Union: how EU actors (don’t) talk about gender in the digital sphere",
@@ -132,13 +129,12 @@ var app = new Vue({
                         }
                     ]
                 },
-                
+
                 {
                     title: "Brexit",
                     img: "brexit.jpg",
                     decription: "My work on Brexit examines the gendered impact on the EU and UK, along with earlier work on social media and the 2016 referendum campaigns.",
-                    publications: [
-                        {
+                    publications: [{
                             authors: "Guerrina, R., Wright, K A M. and Haastrup, T.",
                             year: "2020",
                             title: "Living up to the Women, Peace and Security agenda? - EU Foreign and Security policy after Brexit",
@@ -201,13 +197,12 @@ var app = new Vue({
                         }
                     ]
                 },
-                
+
                 {
                     title: "Gender and the research process",
                     img: "research.jpg",
                     decription: "This work reflects my interest in how gender shapes the research process.",
-                    publications: [
-                        {
+                    publications: [{
                             authors: "Wright, K A M. and Routley, L.",
                             year: "2020",
                             title: "Being Indiana Jones in IR: The pressure to do ‘real’ fieldwork",
@@ -225,13 +220,12 @@ var app = new Vue({
                         }
                     ]
                 },
-                
+
                 {
                     title: "Gender and leadership",
                     img: "blank.jpg",
                     decription: "My work on gender leadership also intersects with my research on Women, Peace and Security but I have also published specifically on gendered nature of political leadership.",
-                    publications: [
-                        {
+                    publications: [{
                             authors: "Holland, J. and Wright, K A M.",
                             year: "2017",
                             title: "The double delegitimisation of Julia Gillard: Gender, the media and Australian political culture",
@@ -248,17 +242,22 @@ var app = new Vue({
                             issue: "Vol. 49(3), 455-468"
                         }
                     ]
-                },
-                
-                {
+                }
+            ]
+        },
+
+
+        projects: {
+            title: "projects",
+
+            projectList: [{
                     title: "Gendering European Studies",
                     img: "uacesges.jpg",
                     decription: "I am convener of the Gendering European Studies Research Network funded from 2018 to 2021 by UACES (the academic association for Contemporary European Studies).",
-                    publications: [
-                        {
+                    publications: [{
                             type: "freeform",
                             text: "The UACES Gendering European Studies Research Network brings together a rich and growing body of work in the area of gender and EU politics and policies, with the intention of mainstreaming gender and feminist approaches in EU studies.",
-                            url:  "https://www.uaces.org/networks/2018b.php"
+                            url: "https://www.uaces.org/networks/2018b.php"
 
                         },
                         {
@@ -271,18 +270,16 @@ var app = new Vue({
                         }
                     ]
                 },
-                
+
                 {
                     title: "Gender and Inclusive Peace and Security",
                     img: "qcea.jpg",
                     decription: "I received funding from the ESRC (ES/T501827/1) to work with the Quaker Council for European Affairs on a project addressing gender and inclusivity across peace and security institutions.",
-                    publications: [
-                        {
-                            type: "freeform",
-                            text: "xxx",
-                            url: "http://www.qcea.org/peace/gender-and-inclusivity/"
-                        },
-                    ]
+                    publications: [{
+                        type: "freeform",
+                        text: "xxx",
+                        url: "http://www.qcea.org/peace/gender-and-inclusivity/"
+                    }, ]
                 }
             ]
         },
