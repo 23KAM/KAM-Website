@@ -3,180 +3,217 @@
 
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Personal website of Dr Katharine A.M. Wright, Lecturer in Politics from Newcastle University">
-  <meta name="author" content="Katharine Wright">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Personal website of Dr Katharine A.M. Wright, Lecturer in Politics from Newcastle University">
+    <meta name="author" content="Katharine Wright">
 
-  <title>KAMWright</title>
+    <title>KAMWright</title>
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="img/favicon.ico?" type="image/x-icon">
-  <link rel="icon" href="img/favicon.ico?" type="image/x-icon">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico?" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico?" type="image/x-icon">
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Dr Katharine. A.M. Wright</span>
-      <span class="d-none d-lg-block">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Dr Katharine. A.M. Wright</span>
+            <span class="d-none d-lg-block">
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/head.jpg" alt="">
       </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#research">Research</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#teaching">Teaching</a>
-        </li>
-<!--         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#media">Media</a>
-        </li> -->
-      </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#research">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#teaching">Teaching</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="app" class="container-fluid p-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+            <div class="w-100">
+                <h2 class="mb-0 mt-5 pt-5">{{firstname}}
+                    <span class="text-primary">{{surname}}</span>
+                </h2>
+                <div class="subheading mb-5">
+                    <a :href="'mailto:' + email">{{email}}</a>
+                </div>
+                <div v-for="para in about.paragraphs">
+                    <p class="lead mb-3" v-html="para"></p>
+                </div>
+                <p class="lead mb-5">
+                    Here's a link to my <a :href="about.cvLink">CV</a>.
+                </p>
+                <div class="social-icons">
+                    <a href="https://uk.linkedin.com/in/kamwright">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://twitter.com/KAMWright">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.ncl.ac.uk/gps/staff/profile/katharineamwright.html">
+                        <i class="fas fa-user-circle"></i>
+                    </a>
+                    <a href="https://github.com/23KAM">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="research">
+            <div class="w-100">
+                <h2 class="mb-5">{{research.title}}</h2>
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col-md-6" v-for="project in research.projectList">
+                        <div class="card">
+                            <img :src="'img/' + project.img" class="card-img-top" alt="project.title">
+                            <div class="card-body">
+                                <h5 class="card-title">{{project.title}}</h5>
+                                <p class="card-text">{{project.decription}}</p>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item" v-for="pub in project.publications">
+                                        <div v-if="pub.type === 'book'">
+                                            <span>{{pub.authors}}</span>
+                                            <span>({{pub.year}})</span>
+                                            <span class="font-italic"><a :href="pub.url">{{pub.title}}</a></span>
+                                            <span>{{pub.publisher}}</span>
+                                            <br>
+                                            <span>{{pub.description}}</span>
+                                        </div>
+                                        <div v-else-if="pub.type === 'freeform'">
+                                            <span>{{pub.text}}</span>
+                                            <br>
+                                            <span>For more info click <a :href="pub.url">here.</a></span>
+                                        </div>
+                                        <div v-else>
+                                            <span>{{pub.authors}}</span>
+                                            <span>({{pub.year}})</span>
+                                            <a :href="pub.url">{{pub.title}}</a>
+                                            <span class="font-italic">{{pub.journal}}</span>
+                                            <span>{{pub.issue}}</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
+            <div class="w-100">
+                <h2 class="mb-5">{{projects.title}}</h2>
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col-md-6" v-for="project in projects.projectList">
+                        <div class="card">
+                            <img :src="'img/' + project.img" class="card-img-top" alt="project.title">
+                            <div class="card-body">
+                                <h5 class="card-title">{{project.title}}</h5>
+                                <p class="card-text">{{project.decription}}</p>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item" v-for="pub in project.publications">
+                                        <div v-if="pub.type === 'book'">
+                                            <span>{{pub.authors}}</span>
+                                            <span>({{pub.year}})</span>
+                                            <span class="font-italic"><a :href="pub.url">{{pub.title}}</a></span>
+                                            <span>{{pub.publisher}}</span>
+                                            <br>
+                                            <span>{{pub.description}}</span>
+                                        </div>
+                                        <div v-else-if="pub.type === 'freeform'">
+                                            <span>{{pub.text}}</span>
+                                            <br>
+                                            <span>For more info click <a :href="pub.url">here.</a></span>
+                                        </div>
+                                        <div v-else>
+                                            <span>{{pub.authors}}</span>
+                                            <span>({{pub.year}})</span>
+                                            <a :href="pub.url">{{pub.title}}</a>
+                                            <span class="font-italic">{{pub.journal}}</span>
+                                            <span>{{pub.issue}}</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="teaching">
+            <div class="w-100">
+                <h2 class="mb-5">{{teaching.title}}</h2>
+
+                <div class="container">
+                    <div class="resume-item row">
+                        <div class="col-sm-5">
+                            <div v-for="para in teaching.paragraphs">
+                                <p class="lead mb-3">{{para}}</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-7">
+                            <img :src="'img/'+ teaching.img" class="img-fluid" alt="Responsive image" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="m-0">
+
     </div>
-  </nav>
 
-  <div id="app" class="container-fluid p-0">
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h2 class="mb-0 mt-5 pt-5">{{firstname}} 
-          <span class="text-primary">{{surname}}</span>
-        </h2>
-        <div class="subheading mb-5">
-          <a :href="'mailto:' + email">{{email}}</a>
-        </div>
-        <div v-for="para in about.paragraphs">
-          <p class="lead mb-3" v-html="para"></p>
-        </div>
-        <p class="lead mb-5">
-          Here's a link to my full <a :href="about.cvLink">CV</a>.
-        </p>
-        <div class="social-icons">
-          <a href="https://uk.linkedin.com/in/kamwright">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://twitter.com/KAMWright">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="https://www.ncl.ac.uk/gps/staff/profile/katharineamwright.html">
-            <i class="fas fa-user-circle"></i>
-          </a>
-          <a href="https://github.com/23KAM">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-      </div>
-    </section>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <hr class="m-0">
+    <!-- Vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="research">
-      <div class="w-100">
-        <h2 class="mb-5">{{projects.title}}</h2>
-        <div class="row row-cols-1 row-cols-md-2">
-          <div class="col-md-6" v-for="project in projects.projectList">
-            <div class="card">
-              <img :src="'img/' + project.img" class="card-img-top" alt="project.title">
-              <div class="card-body">
-                <h5 class="card-title">{{project.title}}</h5>
-                <p class="card-text">{{project.decription}}</p>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item" v-for="pub in project.publications">
-                    <div v-if="pub.type === 'book'">
-                      <span>{{pub.authors}}</span>
-                      <span>({{pub.year}})</span>
-                      <span class="font-italic"><a :href="pub.url">{{pub.title}}</a></span>
-                      <span>{{pub.publisher}}</span>
-                      <br>
-                      <span>{{pub.description}}</span>
-                    </div>
-                    <div v-else-if="pub.type === 'freeform'">
-                      <span>{{pub.text}}</span>
-                      <br>
-                      <span>For more info click <a :href="pub.url">here.</a></span>
-                    </div>
-                    <div v-else>
-                      <span>{{pub.authors}}</span>
-                      <span>({{pub.year}})</span>
-                      <a :href="pub.url">{{pub.title}}</a>
-                      <span class="font-italic">{{pub.journal}}</span>
-                      <span>{{pub.issue}}</span>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="teaching">
-      <div class="w-100">
-        <h2 class="mb-5">{{teaching.title}}</h2>
-
-        <div class="container">
-          <div class="resume-item row">
-            <div class="col-sm-5">
-              <div v-for="para in teaching.paragraphs">
-                <p class="lead mb-3" >{{para}}</p>
-              </div>
-            </div>
-            <div class="col-sm-7">
-              <img :src="'img/'+ teaching.img" class="img-fluid" alt="Responsive image"/>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <!-- <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="media">
-      <div class="w-100">
-        <h2 class="mb-5">{{mdeia.title}}</h2>
-      </div>
-    </section> -->
-
-  </div>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
- 
-  <!-- Vue.js -->
-  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
-  <script src="js/content.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+    <script src="js/content.min.js"></script>
 
 </body>
 
