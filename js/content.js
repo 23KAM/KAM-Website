@@ -89,7 +89,7 @@ var app = new Vue({
                     decription: "This research examines gender and EU external relations, including work on CSDP, digital diplomacy, Normative Power Europe and the impact of Brexit.",
                     publications: [{
                             authors: "Wright, K A M. and Guerrina, R.",
-                            year: "in press",
+                            year: "2020",
                             title: "Imagining the European Union: how EU actors (don’t) talk about gender in the digital sphere",
                             url: "#",
                             journal: "Political Studies Review",
@@ -217,7 +217,16 @@ var app = new Vue({
                             url: "https://journals.sagepub.com/doi/abs/10.1177/0305829818806429?journalCode=mila",
                             journal: "Millennium: Journal of International Studies",
                             issue: "Vol. 47(2), 210–230"
-                        }
+                        },   
+                        {
+                            type: "article",
+                            authors: "Wright, K A M. and Hurley, M.",
+                            year: "2017",
+                            title: "Navigating Power and Perceptions when Researching NATO",
+                            url: "https://www.tandfonline.com/doi/abs/10.1080/14616742.2017.1324096",
+                            journal: "International Feminist Journal of Politics",
+                            issue: "Vol. 19 (3), 390-392"
+                        },
                     ]
                 },
 
