@@ -286,7 +286,7 @@ var app = new Vue({
                     decription: "I received funding from the ESRC (ES/T501827/1) to work with the Quaker Council for European Affairs on a project addressing gender and inclusivity across peace and security institutions.",
                     publications: [{
                         type: "freeform",
-                        text: "xxx",
+                        text: "Our best practice guide and accompanying YouTube videos will launch in Brussels and virtually in Autumn 2020",
                         url: "http://www.qcea.org/peace/gender-and-inclusivity/"
                     }, ]
                 }
