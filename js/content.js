@@ -33,7 +33,7 @@ var app = new Vue({
                             title: "NATO, Gender and the Military: Women Organising from within",
                             url: "http://www.militarygender.com/",
                             publisher: "London: Routledge",
-                            description: "The book was launched at NATO HQ in June 2019 with the NATO Secretary General presented with a copy, and was followed by a panel discussion at the Irish Embassy in Brussels co-hosted with WiiS. It received an honourable mention in the BISA Susan Strange book prize, with the judges commenting: 'This is a highly original book based on detailed archival research and extensive interviews, thanks to unprecedented insider access to NATO. The book’s originality lies in the detailed historical account of gender in NATO, drawing on critical feminist theory and methods'"
+                            description: "The book was launched at NATO HQ in June 2019 with the NATO Secretary General presented with a copy, and was followed by a panel discussion at the Irish Embassy in Brussels co-hosted with WiiS. It received an honourable mention in the 2020 BISA Susan Strange book prize."
                         },
                         {
                             type: "article",
