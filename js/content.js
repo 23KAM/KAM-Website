@@ -11,7 +11,7 @@ var app = new Vue({
             paragraphs: [
                 "I am a Senior Lecturer (Associate Prof) in International Politics at Newcastle University (UK). My research interests focus on gender and security in institutional settings, with a focus on NATO and EU foreign and security policy. I've also published on Brexit, along with gender and the research process.",
 
-                'My book <a href="https://www.militarygender.com/">NATO, Gender and the Military: Women organising from within</a> (co-authored with Matthew Hurley and Jesus Ignacio Gil Ruiz) makes a case for feminist theorising of NATO. Drawing on recently declassified NATO documents, the book argues that NATO has been concerned with gender issues long before the Women, Peace and Security agenda. It was officially launched at NATO HQ in June 2019, and subsequently received an honourable mention in the prestigous BISA Susan Strange book prize. I have published widely in both leading peer-reviewed academic journals and blogs. ',
+                'My book <a href="https://www.militarygender.com/">NATO, Gender and the Military: Women organising from within</a> (co-authored with Matthew Hurley and Jesus Ignacio Gil Ruiz) makes a case for feminist theorising of NATO. Drawing on recently declassified NATO documents, the book argues that NATO has been concerned with gender issues long before the Women, Peace and Security agenda. I have published widely in both leading peer-reviewed academic journals and blogs. ',
 
                 "I have been interviewed on both radio and television and I am always happy to talk to the media about any issue which intersects with my research.",
 
@@ -33,7 +33,7 @@ var app = new Vue({
                             title: "NATO, Gender and the Military: Women Organising from within",
                             url: "http://www.militarygender.com/",
                             publisher: "London: Routledge",
-                            description: "The book was launched at NATO HQ in June 2019 with the NATO Secretary General presented with a copy, and was followed by a panel discussion at the Irish Embassy in Brussels co-hosted with WiiS. It received an honourable mention in the 2020 BISA Susan Strange book prize."
+                            description: "The book was launched at NATO HQ in June 2019, followed by a panel discussion at the Irish Embassy in Brussels co-hosted with Women in International Security (WiiS). It received an honourable mention in the 2020 BISA Susan Strange book prize."
                         },
                         {
                             type: "article",
