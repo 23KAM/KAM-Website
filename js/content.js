@@ -66,7 +66,7 @@ var app = new Vue({
                             type: "article",
                             authors: "Wright, K A M. and Hurley, M.",
                             year: "2017",
-                            title: "Navigating Power and Perceptions when Researching NATO",
+                            title: "Navigating Gender, Power and Perceptions when Researching NATO",
                             url: "https://www.tandfonline.com/doi/abs/10.1080/14616742.2017.1324096",
                             journal: "International Feminist Journal of Politics",
                             issue: "Vol. 19 (3), 390-392"
@@ -222,7 +222,7 @@ var app = new Vue({
                             type: "article",
                             authors: "Wright, K A M. and Hurley, M.",
                             year: "2017",
-                            title: "Navigating Power and Perceptions when Researching NATO",
+                            title: "Navigating Gender, Power and Perceptions when Researching NATO",
                             url: "https://www.tandfonline.com/doi/abs/10.1080/14616742.2017.1324096",
                             journal: "International Feminist Journal of Politics",
                             issue: "Vol. 19 (3), 390-392"
